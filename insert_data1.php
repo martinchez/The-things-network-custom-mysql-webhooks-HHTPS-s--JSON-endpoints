@@ -1,6 +1,6 @@
 <?php
 
-require_once ("DB_config.php"); // This includes the database connection details
+require_once "DB_config.php"; // This includes the database connection details
 
 // Read the raw POST data
 $data = file_get_contents("php://input");
